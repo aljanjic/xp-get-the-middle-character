@@ -19,4 +19,7 @@ describe('getMiddleChar', () => {
   it('should return "b" when given "aba"', () => {
     expect(getMiddle('aba')).toBe('b');
   });
+  it('should return "oo" when given "lool"', () => {
+    expect(getMiddle('lool')).toBe('oo');
+  });
 });
