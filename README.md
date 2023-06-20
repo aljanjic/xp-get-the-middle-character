@@ -30,7 +30,7 @@ Test.assertEquals(getMiddle("test"),"es");
 - ✅ DONE
 
 ## Backlog
-- ⚠ TODO it should return '' when given not string
+- 🚧 TODO it should return '' when given not string
 - ⚠ TODO it should return 'A' when given 'A'
 - ⚠ TODO it should return 'DD' when given 'DD'
 - ⚠ TODO it should return 'aa' when given 'aa'

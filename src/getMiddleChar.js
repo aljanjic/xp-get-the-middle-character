@@ -1,5 +1,5 @@
 function getMiddle() {
-  return 'hello';
+  return '';
 }
 
 module.exports = getMiddle;
