@@ -10,4 +10,7 @@ describe('getMiddleChar', () => {
   it('should return "A" when given "A"', () => {
     expect(getMiddle('A')).toBe('A');
   });
+  it('should return "DD" when given "DD"', () => {
+    expect(getMiddle('DD')).toBe('DD');
+  });
 });
