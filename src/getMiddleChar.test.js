@@ -25,4 +25,7 @@ describe('getMiddleChar', () => {
   it('should return "ab" when given "sabl"', () => {
     expect(getMiddle('sabl')).toBe('ab');
   });
+  it('should return "Sa" when given "sAdSaAbl"', () => {
+    expect(getMiddle('sAdSaAbl')).toBe('Sa');
+  });
 });
