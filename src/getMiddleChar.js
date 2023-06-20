@@ -3,12 +3,12 @@ function getMiddle(str = '') {
     return '';
   }
 
-  let x = sliceStart(str);
+  let x = sliceIndex(str);
   return str.slice(x,str.length - x);
 
 }
 
-function sliceStart(str) {
+function sliceIndex(str) {
   return Math.floor((str.length - 1) / 2);
 }
 
