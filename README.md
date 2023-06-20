@@ -36,6 +36,6 @@ Test.assertEquals(getMiddle("test"),"es");
 - ✅ TODO it should return 'aa' when given 'aa'
 - ✅ TODO it should return 'b' when given 'aba'
 - ✅ TODO it should return 'oo' when given 'lool'
-- ⚠ TODO it should return 'ab' when given 'sabl'
+- 🚧 IN PROGRESS it should return 'ab' when given 'sabl'
 - ⚠ TODO it should return 'Sa' when given 'sAdSaAbl'
 - ⚠ TODO it should return 'G' when given 'enGel'
